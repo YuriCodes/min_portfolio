@@ -2,10 +2,10 @@ body{
     font-family: Arial, sans-serif;
     margin:0;
     line-height:1.4;
-    background:#ebedd4;
+    background:rgb(255, 255, 255);
     color:#000000;
-    font-family: 'lato', serif;
-    }
+    font-family: "Fira Sans", sans-serif;
+}
     
     section{
         padding:50px 15%;
@@ -17,6 +17,7 @@ body{
 
     a{
         text-decoration: none;
+        
     }
     
     a:active, a:visited, a{
@@ -29,31 +30,32 @@ body{
     justify-content:center;
     align-items: flex-start;
     min-height:50vh;
-    background-color: #000000;
-    color: #ebedd4;
+    background-color: #ffffff;
+    color: #000000;
     }
 
     
     .hero p{
     max-width:600px;
     font-size:1.2rem;
-
+    font-weight: 300;
+    font-style: normal;
 
     }
 
     .hero p a {
-        color: white;
+        color: #000000;
     }
   
-
     .heading{
-        color: #ff0081;
+        color: #9c5342;
         font-size: 2rem;
     }
     
 
     .buttons{
         border-radius:50px;
+        
     }
 
     .buttons a{
@@ -65,51 +67,71 @@ body{
     text-decoration:none;
     border-radius:6px;
     font-weight:bold;
-    color:#ff0081;
+    color:#9c5342;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
 
+    #impact{
+        background-color: #9c5342;
     }
     
+   #focus, #devmarketing{
+        background-color: #ebedd4;
+    }
     .metrics{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
     gap:30px;
     text-align:center;
     }
+
     
     .metric{
-    background:#000000;
+
     padding:30px;
     border-radius:10px;
-    color: #ff0081;
+    background-color:#ebedd4;
+    color: #000000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     }
 
-    #about, #focus{
-        background-color: #000000;
-        color: #ff0081;
+    #impact h2{
+        color: #ffffff;
+    }
+
+    #impact .metric h3{
+        color: #9c5342;
+    }
+
+    #about{
+        background-color: #ffffff;
+        color: #9c5342;
     }
 
     #videos{
-        background-color: #ebedd4;
+        background-color: #ffffff;
 
     }
 
-    #videos h3, #devmarketing h3, #impact h3, #about h2{
-        color: #ebedd4;
+    #videos h3, #devmarketing h3{
+        color: #ffffff;
     }
-    #writing h3{
-        color: #ff0081;
+    #writing h3, #devmarketing h2, #videos h2{
+        color: #9c5342;
         
     }
 
+
     #writing{
-        background-color: #000000;
+        background-color: #9c5342;
         color:#ebedd4;
+        
 
     }
 
     #devmarketing .grid .card, #videos .grid .card{
-        background-color: #000000;
-        color: #e4007c;
+        background-color: #9c5342;
+        color: #000000;
     }
 
     #contact{
@@ -124,14 +146,15 @@ body{
     
     .card{
     background:#ebedd4;
-    padding: 30px;
+    padding: 20px;
     border-radius:12px;
     color: #000000;
-    text-align: center;
-    }
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     
+    }
+
     footer{
     text-align:center;
-    padding:40px 10%;
-    background:#e4007c;
+    padding:15px 10%;
+    background:#cb639c;
     }
