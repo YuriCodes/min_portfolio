@@ -6,8 +6,7 @@ body{
     color:#000000;
     font-family: "Fira Sans", sans-serif;
 }
-    
-    section{
+    section {
         padding:50px 15%;
     }
     
@@ -25,11 +24,7 @@ body{
     }
 
     .hero{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: flex-start;
-    min-height:50vh;
+
     background-color: #ffffff;
     color: #000000;
     }
